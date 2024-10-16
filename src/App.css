@@ -1,0 +1,96 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom right, #990668, #b3176d); /* Beautiful gradient */
+  color: #343a40;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh; /* Full height to cover the viewport */
+  display: flex;
+  justify-content: center; /* Centering content horizontally */
+  align-items: center; /* Centering content vertically */
+}
+
+.app {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for depth */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.app:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+h1, h2 {
+  text-align: center;
+  color: #ffffff; /* White text for contrast */
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+}
+
+input, select {
+  width: calc(100% - 22px);
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #290800; /* Gradient color for focus */
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  background-color: #700851; /* Primary button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #feb47b; /* Lighter color on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin: 5px 0;
+  background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background: rgb(48, 2, 2); /* Solid white on hover */
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #6c757d;
+}
