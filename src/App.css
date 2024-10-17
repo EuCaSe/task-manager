@@ -1,13 +1,13 @@
 body {
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(to bottom right, #990668, #b3176d); /* Beautiful gradient */
+  background: linear-gradient(to bottom right, #990668, #b3176d); 
   color: #343a40;
   margin: 0;
   padding: 20px;
-  min-height: 100vh; /* Full height to cover the viewport */
+  min-height: 100vh;
   display: flex;
-  justify-content: center; /* Centering content horizontally */
-  align-items: center; /* Centering content vertically */
+  justify-content: center;
+  align-items: center; 
 }
 
 .app {
@@ -16,19 +16,19 @@ body {
   padding: 30px;
   background: white;
   border-radius: 10px;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Enhanced shadow for depth */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); 
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .app:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4); 
 }
 
 
 h1, h2 {
   text-align: center;
-  color: #000000; /* White text for contrast */
+  color: #000000; 
   margin-bottom: 20px;
   
 }
@@ -44,13 +44,13 @@ input, select {
 }
 
 input:focus, select:focus {
-  border-color: #290800; /* Gradient color for focus */
+  border-color: #290800; 
   outline: none;
 }
 
 button {
   padding: 12px;
-  background-color: #700851; /* Primary button color */
+  background-color: #700851; 
   color: white;
   border: none;
   border-radius: 5px;
@@ -61,8 +61,8 @@ button {
 }
 
 button:hover {
-  background-color: #feb47b; /* Lighter color on hover */
-  transform: translateY(-2px); /* Lift effect on hover */
+  background-color: #feb47b; 
+  transform: translateY(-2px); 
 }
 
 ul {
@@ -77,14 +77,14 @@ li {
   align-items: center;
   padding: 12px;
   margin: 5px 0;
-  background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 5px;
   border: 1px solid #ced4da;
   transition: background-color 0.3s;
 }
 
 li:hover {
-  background: rgb(48, 2, 2); /* Solid white on hover */
+  background: rgb(48, 2, 2); 
 }
 
 li:last-child {
