@@ -16,20 +16,21 @@ body {
   padding: 30px;
   background: white;
   border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for depth */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Enhanced shadow for depth */
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .app:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
 }
+
 
 h1, h2 {
   text-align: center;
-  color: #ffffff; /* White text for contrast */
+  color: #000000; /* White text for contrast */
   margin-bottom: 20px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+  
 }
 
 input, select {
